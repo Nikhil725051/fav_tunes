@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 202, 158);
+    flex-shrink: 0;
+    height: 200px;
+    align-items: center;
+}
+
+.bannerImg{
+    margin-left: 40px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.bannerText{
+    color: white;
+    text-align: end;
+    margin-right: 5%;
+}
+
+.bannerText h3{
+   font-size: 25px;
+   margin-bottom: 0;
+}
+
+.bannerText p{
+    margin-top: 0;
+    font-weight: 500;
+}

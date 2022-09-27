@@ -1,0 +1,52 @@
+.userPlaylists{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.createNew{
+    text-align: end;
+    margin-right: 200px;
+    border: none;
+    background: none;
+    font-weight: 500;
+}
+
+.addBtn{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.userPlaylistItems{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 200px;
+    padding: 15px;
+    align-items: center;
+    height: 150px;
+   -webkit-box-shadow: 10px 10px 45px -23px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 45px -23px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 45px -23px rgba(0,0,0,0.75); 
+}
+
+.playlistImage{
+    flex-shrink: 0;
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.addSongsBtn{
+    font-weight: 500;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.playlistText{
+    flex-shrink: 0;
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+    font-weight: 500;
+}

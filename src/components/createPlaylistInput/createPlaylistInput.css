@@ -1,0 +1,22 @@
+.createPlaylistInput{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playlistName{
+    padding: 6px 0px;
+    border-color: blueviolet;
+    font-style: italic;
+    width: 60%;
+}
+
+.createButton{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-style: italic;
+}

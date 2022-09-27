@@ -1,0 +1,25 @@
+.sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 15%;
+    gap: 50px;
+
+}
+
+.sidebarOption{
+    display: flex;
+    gap: 20px;
+    padding-left: 25%;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+@media (min-width: 280px) and (max-width: 992px){
+    .sideBarText{
+        display: none;
+    }
+}

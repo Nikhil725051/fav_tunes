@@ -1,0 +1,29 @@
+.SearchBar{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.searchBarItem{
+    padding: 0px 15px;
+    border: 1px solid black;
+}
+
+.searchInput{
+    padding: 15px ;
+    width: 220px;
+    outline: none;
+    border: none;
+}
+
+.searchResults{
+    position: absolute;
+    top: 100px;
+}
+
+.songName{
+    display: block;
+    cursor: pointer;
+}
