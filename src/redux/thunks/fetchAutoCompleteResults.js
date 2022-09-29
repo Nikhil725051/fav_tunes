@@ -10,7 +10,7 @@ export const fetchAutoCompleteResults = (searchText) => (dispatch) => {
     url: 'https://shazam.p.rapidapi.com/auto-complete',
     params: {term: searchText, locale: 'en-US'},
     headers: {
-      'X-RapidAPI-Key': '172fdc7bddmsh9af7a61493fbeedp181d42jsnd76cb64ca8ab',
+      'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
       'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
     }
   };

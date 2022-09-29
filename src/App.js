@@ -8,6 +8,7 @@ import Banner from './components/banner/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+
 function App() {
   return (
   <div className='app'>

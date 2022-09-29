@@ -10,7 +10,7 @@ export const fetchFeaturedPlaylist = () => (dispatch) => {
     url: 'https://shazam.p.rapidapi.com/charts/track',
     params: {locale: 'en-US', pageSize: '20', startFrom: '0'},
     headers: {
-      'X-RapidAPI-Key': '172fdc7bddmsh9af7a61493fbeedp181d42jsnd76cb64ca8ab',
+      'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
       'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
     }
   };
